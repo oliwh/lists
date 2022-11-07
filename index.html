@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">                                      
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                             
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #181a1b;
+            font-family: 'Roboto';
+        }
+
+        h1 {
+            color: #e8e6e3;
+            font-family: 'Roboto';
+
+        }
+
+        p {
+            color: #e8e6e3;
+        }
+
+        table, th, td {
+            border-color: floralwhite;
+            border-width: 3px;
+            border-style: groove;
+            color: #e8e6e3;
+            font-size: 25px;
+
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <h1>List data</h1>
+    </div>
+    <div align="center">
+        <h1>What is a list?</h1>
+        <p>Lists are dynamic arrays, so the size of a list can be modified after runtime.</p>
+        <p>Lists are different to arrays in that they can store different data types. They store data contigiously.</p>
+        <table>
+            <tr>
+                <th>List Operation</th>
+                <th>Description</th>
+                <th>Example Code</th>
+            </tr>
+            <tr>
+                <td>isEmpty()</td>
+                <td>Test for empty List</td>
+                <td>myList.isEmpty()</td>
+            </tr>
+            <tr>
+                <td>add(item)</td>
+                <td>appends the specified item to the end of a list</td>
+                <td>myList.add("item")</td>
+            </tr>
+            <tr>
+                <td>add(index, item)</td>
+                <td>adds the specified item at the index specified</td>
+                <td>myList.add(3, "hello")</td>
+            </tr>
+            <tr>
+                <td>clear()</td>
+                <td>removes all elements in list</td>
+                <td>myList.clear()</td>
+            </tr>
+            <tr>
+                <td>lastIndexOf(item)</td>
+                <td>returns the index in the list of the last occurence of the element or -1 if it is not in the list</td>
+                <td>myList.lastIndexOf(5)</td>
+            </tr>
+            <tr>
+                <td>remove(index)</td>
+                <td>removes the element at the specified index</td>
+                <td>myList.remove(4)</td>
+            </tr>
+            <tr>
+                <td>get(index)</td>
+                <td>returns the element at the specified index</td>
+                <td>myList.get(3)</td>
+            </tr>
+            <tr>
+                <td>size()</td>
+                <td>returns the number of elements in the list</td>
+                <td>myList.size()</td>
+            </tr> 
+            <tr>
+                <td>contains(item)</td>
+                <td>returns a boolean for whether the lists contains the specified item</td>
+                <td>myList.contains(51)</td>
+            </tr>
+            <tr>
+                <td>indexOf(item)</td>
+                <td>returns the index of the first occurence of the specified item in the list</td>
+                <td>myList.indexOf(31)</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
